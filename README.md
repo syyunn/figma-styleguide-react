@@ -11,3 +11,8 @@ Replicate a sample figma-styleguide to React :: to understand the `hand-off` pro
 brew update
 brew install node # it installs npm alongside.
 ```
+
+- [ ] Create-react-app 
+```shell script
+npx create-react-app your-app-name # customize your-app-name
+```
