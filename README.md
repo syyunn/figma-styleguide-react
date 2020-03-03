@@ -21,3 +21,9 @@ npx create-react-app your-app-name # customize your-app-name
 ```shell script
 npx -p @storybook/cli sb init --type react_scripts
 ```
+
+## Let's Start
+- [ ] Start storybook UI book
+```shell script
+yarn storybook
+```
