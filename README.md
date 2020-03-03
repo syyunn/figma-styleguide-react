@@ -16,3 +16,8 @@ brew install node # it installs npm alongside.
 ```shell script
 npx create-react-app your-app-name # customize your-app-name
 ```
+
+- [ ] Storybook
+```shell script
+npx -p @storybook/cli sb init --type react_scripts
+```
