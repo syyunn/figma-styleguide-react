@@ -18,7 +18,7 @@ export const Colors = () => (
                 <div style={{ background: '#FFFFFF', width: '160px', height: '50px', borderBottomLeftRadius: '12px', borderBottomRightRadius: '12px', display: "flex", alignItems: 'center', justifyContent: 'center' }} >
                     <p style={{
                         fontSize: "17px",
-                        fontFamily: "San Francisco",
+                        fontFamily: "sans-serif",
                         lineHeight: "22px",
                     }}>
                         #BE52F2
