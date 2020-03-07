@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 
 export default {
     title: 'Typography',
@@ -9,7 +9,15 @@ export default {
     },
 };
 
-export const Text = ({ text = 'Lorem ipsum dolor sit amet', fontSize = "17px", fontFamily = "SF Pro Text", lineHeight = "22px" }) => {
+type TextProp = {
+    text?: string
+    fontSize?: string
+    fontFamily?: string
+    lineHeight?: string
+}
+
+
+export const Text: FunctionComponent<TextProp> = ({ text = 'Lorem ipsum dolor sit amet', fontSize = "17px", fontFamily = "SF Pro Text", lineHeight = "22px" }) => {
     return (
         <>
             < p style={{
