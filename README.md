@@ -1,6 +1,8 @@
 # figma-styleguide-react
 Replicate a sample figma-styleguide to React :: to understand the `hand-off` process from designer to dev
 
+## TS
+Basic support lang is `TypeScript`
 
 ## Sample Figma-Styleguide
 [Link](https://www.figmafinder.com/free-figma-styleguide)
