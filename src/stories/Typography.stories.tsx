@@ -9,15 +9,7 @@ export default {
     },
 };
 
-type TextProp = {
-    text?: string
-    fontSize?: string
-    fontFamily?: string
-    lineHeight?: string
-}
-
-
-export const Text: FunctionComponent<TextProp> = ({ text = 'Lorem ipsum dolor sit amet', fontSize = "17px", fontFamily = "SF Pro Text", lineHeight = "22px" }) => {
+export const Text = ({ text = 'Lorem ipsum dolor sit amet', fontSize = "17px", fontFamily = "SF Pro Text", lineHeight = "22px" }) => {
     return (
         <>
             < p style={{

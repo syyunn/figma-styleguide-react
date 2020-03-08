@@ -20,4 +20,4 @@ export const Palette = ({ bgColor = '#000000' }) => {
     )
 }
 
-export const Black = () => Palette({ bgColor: '#BE52F2' })
+export const Violet = () => Palette({ bgColor: '#BE52F2' })
