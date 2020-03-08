@@ -1,6 +1,6 @@
 import React from 'react';
 import { Rectangle, RectangleTextCenter } from './Shapes.stories'
-import { Text } from './Typography.stories'
+// import { Text } from './Typography.stories'
 
 export default {
     title: 'Colors',
